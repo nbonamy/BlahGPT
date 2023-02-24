@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css"/>
+  <title>Encom GPT</title>
+</head>
+<body>
+  <div id="welcome">
+    <div class="title">EncomGPT</div>
+    <table>
+      <tr>
+        <th><div class="icon">☼</div>Examples</th>
+        <th><div class="icon">⚡</div>Capabilities</th>
+        <th><div class="icon">⚠</div>Limitations</th>
+      </tr>
+      <tr>
+        <td class="example">Explain quantum computing in simple terms</td>
+        <td>Remembers what user said earlier in the conversation</td>
+        <td>May occasionally generate incorrect information</td>
+      </tr>
+      <tr>
+        <td class="example">Got any creative ideas for a 10 year old’s birthday?</td>
+        <td>Allows user to provide follow-up corrections</td>
+        <td>May occasionally produce harmful instructions or biased content</td>
+      </tr>
+      <tr>
+        <td class="example">How do I make an HTTP request in Javascript?</td>
+        <td>Trained to decline inappropriate requests</td>
+        <td>Limited knowledge of world and events after 2021</td>
+      </tr>
+    </table>
+  </div>  <div id="chat">
+  </div>
+  <div id="input">
+    <textarea placeholder="Hi! My name is EncomGPT. Ask me anything!"></textarea>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
