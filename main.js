@@ -59,7 +59,7 @@ const answer = async (msg) => {
     const sentences = randint(1, 3)
     for (let s=0; s<sentences; s++) {
       await randwords($para)
-      if (p == 1 && s == sentences-1 && Math.random() > 0.5) {
+      if (p == 1 && s == sentences-1 && Math.random() > 0.25) {
         $para.append(':')
         let $ul = $('<ul></ul>')
         $t.append($ul)
